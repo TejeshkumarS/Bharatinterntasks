@@ -1,0 +1,88 @@
+.App{
+  text-align: center;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #eff0f1;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+h1{
+  font-size: 65px;
+  color: #0023e6;
+}
+
+button{
+  cursor: pointer;
+}
+
+.card-container {
+  width: 70%;
+  background: #f6f6f6;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  border-radius: 5px ;
+  padding: 40px 50px 30px;
+  max-height: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+  
+  .view-button {
+  border-radius: 5px;
+  background: #fff;
+  color: #007AE6;
+  border: none;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  padding: 15px 30px;
+  font-size: 16px;
+  margin-top: 0px;
+  }
+  
+  .view-button:active {
+  background-color: #FCBA02;
+  color: #fff;
+  }
+  
+  .view-button:focus {
+  background-color: #e9ac04;
+  color: #fff;
+  }
+  
+  .selection {
+    margin-top: 20px;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+  }
+  .col-xl-10{
+    height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container-fluid {
+    width: 100vw;
+  }
+  .col-xl-2 {
+    height: 100vh;
+  }
+  @media screen and (max-width: 1200px) {
+    .col-xl-2 {
+      display: none;
+    }
+  }
